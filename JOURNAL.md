@@ -28,9 +28,9 @@ Today I started working on week 1 of Half-Life. My goal is to design a small ret
 
 I first sat down with a sheet of paper to figure out the dimensions and layout. I put the 1.3 inch SPI display in the upper center, a d-pad on the left, tilted A and B buttons on the right, and start plus select buttons right below. I also sketched an SPDT slide switch on the side for power and left space for a speaker grill for the buzzer.
 
-After that I spent most of the session sourcing parts to stay below the $30 budget limit. Picking the buzzer took some time because most cheap listings on AliExpress were active buzzers, but I specifically needed a passive 12mm one so I can modulate different frequencies in code for game tones. I got the ST7789 display, the buzzer, and some monolithic 100nF caps on AliExpress. For the pin headers I switched over to Amazon instead because the bundle shipping rules on Ali were getting annoying.
+After that I spent most of the session sourcing parts to stay below the $30 budget limit. Picking the buzzer took some time because most cheap listings on AliExpress were active buzzers, but I specifically needed a passive 12mm one so I can modulate different frequencies in code for game tones. I got the ST7789 display, the buzzer, and some monolithic 100nF caps on AliExpress.
 
-For the board fabrication I set up JLCPCB for 5 boards. The initial quote defaulted to DHL express which was over $30 just for shipping, so I switched the calculation to global direct line to keep the total around $28 including tax and shipping.
+For the board fabrication I set up JLCPCB for 5 boards.
 
 Overall I got the layout sketched, figured out the basic pin connections, and filled out the whole BOM within the budget. Next I will boot up KiCad and draw the schematic.
 
