@@ -20,7 +20,7 @@
 | [Custom 2-Layer PCB (5 copies)](https://jlcpcb.com/quote) | Main gameboy PCB board manufacturing | 5 | $0.40 | $2.00 | [JLCPCB](https://jlcpcb.com/quote) |
 | [ESP32 USB C mit CP2102 Chip NodeMCU](https://www.amazon.de/NodeMCU-Entwicklungsboard-ESP-WROOM-32-Bluetooth-Arduino/dp/B0DGG7LXMF?dib=eyJ2IjoiMSJ9.H1KoojdM0e_Yliy9fp7SRgmUBLRd7EwqZm79WcgM-rtqvzIKTkpg-TQHaregFMQGH-tQiab47Fge71PXCmAzPBQYU8boQjRcAVKIbH7kq_pGhc4JYQn98X-5yr43FcrSLlSobg0Zxnz6wxBULBC6jnYlDPNDXAU6LC4j2pnYzRc0xKyv3fzqj5esHeoPiO2fVHrlh76MydduNZ3a8G5qKcNsZxS4UAyM1xacOY-Lrns.l9W0-Cw0c7LkoLEqsHmm7IRiXeZ-cunMC7x6LLcl9fA&dib_tag=se&keywords=esp32&qid=1791200089&refinements=p_36%3A-1000&rnid=389294011&sr=8-6&th=1) | The CPU | 1 | $8.51 | $8.51 | [Amazon](https://www.amazon.de/NodeMCU-Entwicklungsboard-ESP-WROOM-32-Bluetooth-Arduino/dp/B0DGG7LXMF?dib=eyJ2IjoiMSJ9.H1KoojdM0e_Yliy9fp7SRgmUBLRd7EwqZm79WcgM-rtqvzIKTkpg-TQHaregFMQGH-tQiab47Fge71PXCmAzPBQYU8boQjRcAVKIbH7kq_pGhc4JYQn98X-5yr43FcrSLlSobg0Zxnz6wxBULBC6jnYlDPNDXAU6LC4j2pnYzRc0xKyv3fzqj5esHeoPiO2fVHrlh76MydduNZ3a8G5qKcNsZxS4UAyM1xacOY-Lrns.l9W0-Cw0c7LkoLEqsHmm7IRiXeZ-cunMC7x6LLcl9fA&dib_tag=se&keywords=esp32&qid=1791200089&refinements=p_36%3A-1000&rnid=389294011&sr=8-6&th=1) |
 | **Parts subtotal** | — | — | — | **$26.32** | — |
-| **Tax & shipping** | — | — | — | **$3.00** | — |
-| **Total** | — | — | — | **$29.32** | — |
+| **Tax & shipping** | — | — | — | **$3.30** | — |
+| **Total** | — | — | — | **$29.62** | — |
 
-$0.68 left of the tier's funding.
+$0.38 left of the tier's funding.
