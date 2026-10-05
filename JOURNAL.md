@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 1 | 4.7h | 2 |
+| Week 1 | Tier 1 | 4.75h | 2 |
 
 ## Contents
 
@@ -41,7 +41,9 @@ Overall I got the layout sketched, figured out the basic pin connections, and fi
 
 ### 2026-10-05 — Work session
 
-**3.2h**
+**3.25h**
+
+Work session
 
 [Timelapse](https://lookout.hackclub.com/api/media/3cebc4d3-7f79-4dbb-bff6-951b19fb39be/video.mp4)
 
