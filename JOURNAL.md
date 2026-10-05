@@ -15,7 +15,7 @@
 ## Contents
 
 1. [2026-10-05 — ### Concept sketching and parts sourcing for week 1](#2026-10-05-concept-sketching-and-parts-sourcing-for-week-1)
-2. [2026-10-05 — Work session](#2026-10-05-work-session)
+2. [2026-10-05 — Work session; .25 h more because I, young and dumb, forgot to activate lapse (v1.0 PCB GameBoy, you can see the scematics that I already importet and sortet from the other editor).](#2026-10-05-work-session-25-h-more-because-i-young-and-dumb-f)
 
 ## Design
 
@@ -39,11 +39,11 @@ Overall I got the layout sketched, figured out the basic pin connections, and fi
 
 [Timelapse](https://lookout.hackclub.com/api/media/71f75362-e9db-4cb1-add1-0e0a3f96c965/video.mp4)
 
-### 2026-10-05 — Work session
+### 2026-10-05 — Work session; .25 h more because I, young and dumb, forgot to activate lapse (v1.0 PCB GameBoy, you can see the scematics that I already importet and sortet from the other editor).
 
 **3.25h**
 
-Work session
+Work session; .25 h more because I, young and dumb, forgot to activate lapse (v1.0 PCB GameBoy, you can see the scematics that I already importet and sortet from the other editor).
 
 [Timelapse](https://lookout.hackclub.com/api/media/3cebc4d3-7f79-4dbb-bff6-951b19fb39be/video.mp4)
 
