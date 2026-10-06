@@ -44,12 +44,14 @@ Everything is plugged into female pin headers so I can swap out the ESP32 or scr
 | 2.54mm Pin Header Kit | Sockets for ESP & screen | 1 | \$7.27 | Amazon | 
 | Custom 2-Layer PCB | Main board | 5 | \$2.00 | JLCPCB | 
 | ESP32 NodeMCU (USB-C) | The CPU | 1 | \$8.51 | Amazon | 
-| Shipping & Tax | Shipping costs | — | \$3.39 | Various | 
+| Shipping & Tax | Shipping costs | x | \$3.39 | Various | 
 | **Total** |  |  | **\$29.71** | (\$0.29 left) | 
 
 ## Software & Games
 
 Coding this in **VS Code** with the Arduino extension.
+
+My next steps:
 
 * \[ \] Hardware test (check all 8 buttons, screen and buzzer)
 
