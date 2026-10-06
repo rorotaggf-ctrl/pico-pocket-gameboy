@@ -35,17 +35,7 @@ Everything is plugged into female pin headers so I can swap out the ESP32 or scr
 
 ## Bill of Materials 
 
-| Part | What it's for | Qty | Price | Where | 
-| ----- | ----- | ----- | ----- | ----- | 
-| 1.3" SPI TFT LCD (ST7789) | The screen | 1 | \$2.23 | AliExpress | 
-| Mini Slide Switch (SPDT) | Power switch (angled) | 1 | \$1.85 | AliExpress | 
-| Passive Piezo Buzzer | Retro sounds | 1 | \$2.01 | AliExpress | 
-| 100nF Ceramic Capacitors | Smooth power supply | 1 | \$2.45 | AliExpress | 
-| 2.54mm Pin Header Kit | Sockets for ESP & screen | 1 | \$7.27 | Amazon | 
-| Custom 2-Layer PCB | Main board | 5 | \$2.00 | JLCPCB | 
-| ESP32 NodeMCU (USB-C) | The CPU | 1 | \$8.51 | Amazon | 
-| Shipping & Tax | Shipping costs | x | \$3.39 | Various | 
-| **Total** |  |  | **\$29.71** | (\$0.29 left) | 
+For BoM see BOM.md
 
 ## Software & Games
 
