@@ -13,11 +13,10 @@
 | Part | What it's for | Qty | Unit | Total | Vendor |
 | --- | --- | --- | --- | --- | --- |
 | [1.3" SPI TFT LCD (ST7789)](https://www.amazon.de/dp/B09Z299F3Q/?smid=A3LA1TDA4Q3SUA&tag=preisvergleich-idealode-21&linkCode=asn&creative=6742&camp=1638&creativeASIN=B09Z299F3Q&ascsubtag=2026-10-06_9bd703fbc3abd0e9a70a7dc74d566bbac1b916e57de4f8494cb3f283914ffeb3&th=1&psc=1) | that we can see the game | 1 | $7.87 | $7.87 | [Amazon](https://www.amazon.de/dp/B09Z299F3Q/?smid=A3LA1TDA4Q3SUA&tag=preisvergleich-idealode-21&linkCode=asn&creative=6742&camp=1638&creativeASIN=B09Z299F3Q&ascsubtag=2026-10-06_9bd703fbc3abd0e9a70a7dc74d566bbac1b916e57de4f8494cb3f283914ffeb3&th=1&psc=1) |
-| [Mini Slide Switch (SPDT)](https://www.amazon.de/Youmile-Vertikalschiebeschalter-Position-Schalter-SK12D07VG3/dp/B08SM2HHNR?dib=eyJ2IjoiMSJ9.-KZxJVZT-U4cSL6_upsoGlVB7VsC67CmI7_U3ldvJlCY83-nEJgZo_jn-VF6UAibCJAcgFzU9_cLcor3A4OMpnPOpyOF5DVObphZMaHWhn_Me_KXoW1_ORDJ86X5PpliC68SNKbzBp9J_F0pirVplWXfK2kyC48SdIIWKqc67I-8XSvC5ubI-Ow_E02cXtOTs9-Nb9DKRr2Bmko9J9heQfrHvwWtxNXCKXDTaTnZuNoHBoV1ogjxnMk-_P7MCZpNqKwNLd9yCP1QV9Um2oXqfKomdJUWh-y5JcMt78BAYzI.mmjDxcXVE-dj6taWgA8ToKq_hG6N8CTg7XXoYlsad3k&dib_tag=se&keywords=Mini%2BSlide%2BSwitch%2B(SPDT)&qid=1791298532&refinements=p_36%3A-500&rnid=118555031&sr=8-5&th=1) | To power on/off the gameboy | 1 | $5.62 | $5.62 | [Amazon](https://www.amazon.de/Youmile-Vertikalschiebeschalter-Position-Schalter-SK12D07VG3/dp/B08SM2HHNR?dib=eyJ2IjoiMSJ9.-KZxJVZT-U4cSL6_upsoGlVB7VsC67CmI7_U3ldvJlCY83-nEJgZo_jn-VF6UAibCJAcgFzU9_cLcor3A4OMpnPOpyOF5DVObphZMaHWhn_Me_KXoW1_ORDJ86X5PpliC68SNKbzBp9J_F0pirVplWXfK2kyC48SdIIWKqc67I-8XSvC5ubI-Ow_E02cXtOTs9-Nb9DKRr2Bmko9J9heQfrHvwWtxNXCKXDTaTnZuNoHBoV1ogjxnMk-_P7MCZpNqKwNLd9yCP1QV9Um2oXqfKomdJUWh-y5JcMt78BAYzI.mmjDxcXVE-dj6taWgA8ToKq_hG6N8CTg7XXoYlsad3k&dib_tag=se&keywords=Mini%2BSlide%2BSwitch%2B(SPDT)&qid=1791298532&refinements=p_36%3A-500&rnid=118555031&sr=8-5&th=1) |
 | [Custom 2-Layer PCB (5 copies)](https://jlcpcb.com/quote) | Main gameboy PCB board manufacturing | 1 | $8.10 | $8.10 | [JLCPCB](https://jlcpcb.com/quote) |
 | [ESP32 USB C mit CP2102 Chip NodeMCU](https://www.ebay.de/itm/377544239165) | The CPU | 1 | $12.25 | $12.25 | [ebay](https://www.ebay.de/itm/377544239165) |
-| **Parts subtotal** | — | — | — | **$33.84** | — |
+| **Parts subtotal** | — | — | — | **$28.22** | — |
 | **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$33.84** | — |
+| **Total** | — | — | — | **$28.22** | — |
 
-**$3.84 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
+$1.78 left of the tier's funding.
