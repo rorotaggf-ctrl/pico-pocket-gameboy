@@ -17,7 +17,7 @@
 | [Custom 2-Layer PCB (5 copies)](https://jlcpcb.com/quote) | Main gameboy PCB board manufacturing | 5 | $0.40 | $2.00 | [JLCPCB](https://jlcpcb.com/quote) |
 | [ESP32 USB C mit CP2102 Chip NodeMCU](https://www.ebay.de/itm/377544239165) | The CPU | 1 | $12.25 | $12.25 | [ebay](https://www.ebay.de/itm/377544239165) |
 | **Parts subtotal** | — | — | — | **$27.74** | — |
-| **Tax & shipping** | — | — | — | **$5.39** | — |
-| **Total** | — | — | — | **$33.13** | — |
+| **Tax & shipping** | — | — | — | **$0.00** | — |
+| **Total** | — | — | — | **$27.74** | — |
 
-**$3.13 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
+$2.26 left of the tier's funding.
