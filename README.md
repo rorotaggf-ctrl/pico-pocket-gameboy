@@ -45,9 +45,9 @@ My next steps:
 
 * \[ \] Hardware test (check all 8 buttons, screen and buzzer)
 
-* \[ \] Snake
+* \[ x\] Snake
 
-* \[ \] Flappy Bird
+* \[ x\] Flappy Bird
 
 
 <img width="4143" height="5912" alt="gameboy_zeichnung" src="https://github.com/user-attachments/assets/0560cf1a-50d1-4c12-a404-274c0fb4b627" />
