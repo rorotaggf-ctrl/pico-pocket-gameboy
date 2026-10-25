@@ -51,23 +51,35 @@ Everything is plugged into female pin headers so I can swap out the ESP32 or scr
 
 Coding this in **VS Code** with PlatformIO and the Arduino framework.
 
-- [ /] Hardware test (check all buttons, screen and buzzer)
+- [ ] Hardware test (check all buttons, screen and buzzer)
 - [x] **Snake:** Classic arcade snake with dynamic speed progression and persistent flash highscore saving (`Preferences.h`).
 - [x] **Flappy Bird:** Physics-based flapping mechanics with shrinking tube gaps and highscore tracking.
 - [x] **Tetris:** 4-block piece rotation, line clears, game over detection and scaling fall-speed.
 - [x] **Pong:** 1-Player retro pong against an automated bot with 3 selectable difficulty levels (Leicht, Mittel, Schwer).
 - [x] **Wolfenstein 3D:** Lightweight pseudo-3D DDA raycasting engine with shooting mechanics and destroyable wall blocks.
 - [x] **Screensavers:** 4 idle modes kicking in after 30s (Starfield warp, Matrix code rain, bouncing DVD logo, bouncing RR logo).
-- [x] **Sound & Easter Egg:** Chiptune audio tone effects and secret boot intro (AC/DC - Back in Black) triggered on hold.
+- [x] **Sound:** Custom 8-bit sound engine generating square-wave chiptune tones and hit sounds.
 
 ---
 
-### Hardware & PCB Previews
+## Hardware Previews & Design
+
+### Initial Concept Sketch
+Original layout sketch showing the handheld form factor, placement of the 1.3" display, D-Pad, action buttons, and side switch.
 
 <img width="4143" height="5912" alt="gameboy_zeichnung" src="https://github.com/user-attachments/assets/0560cf1a-50d1-4c12-a404-274c0fb4b627" />
 
+### KiCad Schematic
+Full schematic in KiCad showing the ESP32 pin headers, decoupling capacitor, passive buzzer circuit, SPI screen lines, and button pull-up configuration.
+
 <img width="754" height="536" alt="the_gameboy — Schaltplaneditor 25 10 2026 16_54_02" src="https://github.com/user-attachments/assets/0495b00e-4de3-4615-bc45-eeac114f1392" />
 
+### 3D Model (Front & Components)
+KiCad 3D viewer rendering displaying the component arrangement, female pin headers for the ESP32, display connector, buzzer, and tactile switches.
+
 <img width="554" height="697" alt="3D-Betrachter 25 10 2026 16_53_29" src="https://github.com/user-attachments/assets/270e60c3-7de3-459a-8c90-27eacc1d9b16" />
+
+### 3D Model (Perspective View)
+Angled 3D view showing the side-mounted power switch, through-hole solder pads, and board thickness.
 
 <img width="769" height="899" alt="3D-Betrachter 25 10 2026 16_53_06" src="https://github.com/user-attachments/assets/2590f7fe-4fb1-43e5-8c40-c3d473d6f2fc" />
