@@ -52,3 +52,8 @@ My next steps:
 
 <img width="4143" height="5912" alt="gameboy_zeichnung" src="https://github.com/user-attachments/assets/0560cf1a-50d1-4c12-a404-274c0fb4b627" />
 
+<img width="754" height="536" alt="the_gameboy — Schaltplaneditor 25 10 2026 16_54_02" src="https://github.com/user-attachments/assets/0495b00e-4de3-4615-bc45-eeac114f1392" />
+
+<img width="554" height="697" alt="3D-Betrachter 25 10 2026 16_53_29" src="https://github.com/user-attachments/assets/270e60c3-7de3-459a-8c90-27eacc1d9b16" />
+
+<img width="769" height="899" alt="3D-Betrachter 25 10 2026 16_53_06" src="https://github.com/user-attachments/assets/2590f7fe-4fb1-43e5-8c40-c3d473d6f2fc" />
