@@ -6,63 +6,17 @@ I designed a custom PCB in KiCad and everything uses through-hole parts so it's 
 
 ## Features
 
-<<<<<<< HEAD
-* **CPU:** ESP32 NodeMCU (USB-C, dual-core, plenty of speed)
-
-* **Display:** 1.3" IPS color display ($240 \times 240$, ST7789)
-
-* **Buttons:** 8 clicky buttons (D-Pad, A/B, Start/Select)
-
-* **Sound:** Piezo buzzer for 8-bit beeps and game sounds
-
-* **Power:** Slide switch on the right side to turn it on/off
-
-* **PCB:** $70 \times 120\,\text{mm}$ custom PCB
-=======
 - **CPU:** ESP32 NodeMCU (USB-C, dual-core, plenty of speed)
 - **Display:** 1.3" IPS color display (240 x 240, ST7789)
 - **Buttons:** 8 clicky buttons (D-Pad, A/B, Start/Select)
 - **Sound:** Piezo buzzer for 8-bit beeps and game sounds
 - **Power:** Slide switch on the right side to turn it on/off
 - **PCB:** 70 x 120 mm custom PCB
->>>>>>> 41f1e7bb9faeb5d03b5b7003d33f3f52aa17267a
 
 ## Pinout
 
 Everything is plugged into female pin headers so I can swap out the ESP32 or screen if something breaks.
 
-<<<<<<< HEAD
-| Part | Pin | ESP32 GPIO | Notes | 
-| ----- | ----- | ----- | ----- | 
-| **Screen** | SCL / SDA | GPIO 18 / GPIO 23 | Hardware SPI | 
-|  | RES / DC | GPIO 4 / GPIO 2 | Reset & Command pins | 
-| **D-Pad** | Up / Down | GPIO 13 / GPIO 12 | Active LOW | 
-|  | Left / Right | GPIO 14 / GPIO 27 | Active LOW | 
-| **Action** | A / B | GPIO 26 / GPIO 25 | Active LOW | 
-| **Menu** | Start / Select | GPIO 33 / GPIO 32 | Active LOW | 
-| **Buzzer** | Plus (+) | GPIO 15 | PWM audio | 
-| **Switch** | Center pin | VIN | Power on/off | 
-
-## Bill of Materials 
-
-For BoM see BOM.md
-
-## Software & Games
-
-Coding this in **VS Code** with the Arduino extension.
-
-My next steps:
-
-* \[ \] Hardware test (check all 8 buttons, screen and buzzer)
-
-* \[ \] Snake
-
-* \[ \] Flappy Bird
-
-
-<img width="4143" height="5912" alt="gameboy_zeichnung" src="https://github.com/user-attachments/assets/0560cf1a-50d1-4c12-a404-274c0fb4b627" />
-
-=======
 | Part | Pin | ESP32 GPIO | Notes |
 | :--- | :--- | :--- | :--- |
 | **Screen** | SCL / SDA | GPIO 18 / GPIO 23 | Hardware SPI |
@@ -129,4 +83,3 @@ KiCad 3D viewer rendering displaying the component arrangement, female pin heade
 Angled 3D view showing the side-mounted power switch, through-hole solder pads, and board thickness.
 
 <img width="769" height="899" alt="3D-Betrachter 25 10 2026 16_53_06" src="https://github.com/user-attachments/assets/2590f7fe-4fb1-43e5-8c40-c3d473d6f2fc" />
->>>>>>> 41f1e7bb9faeb5d03b5b7003d33f3f52aa17267a
