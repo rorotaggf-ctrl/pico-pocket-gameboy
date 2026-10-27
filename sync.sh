@@ -1,32 +1,35 @@
 #!/bin/bash
 set -e
 
-BRANCH=$(git rev-parse --abbrev-ref HEAD 2>/dev/null || echo "main")
-MSG="${1:-Auto-Sync: gravity-matrix Update}"
+# Holt den aktuellen Branchnamen zuverlässig einzeilig
+BRANCH=$(git branch --show-current 2>/dev/null | tr -d '\r\n')
+if [ -z "$BRANCH" ] || [ "$BRANCH" = "HEAD" ]; then
+    BRANCH="main"
+fi
+
+MSG="${1:-Auto-Sync Update}"
 
 echo "=========================================="
 echo "  Universal Sync: $(basename "$PWD")"
 echo "  Branch:         $BRANCH"
 echo "=========================================="
 
-# 1. Lokale Änderungen erfassen & committen
 git add .
-if ! git diff-index --quiet HEAD --; then
+
+if ! git diff-index --quiet HEAD -- 2>/dev/null; then
     git commit -m "$MSG"
 else
     echo "Keine neuen lokalen Änderungen zum Committen."
 fi
 
-# 2. Vor dem Push: Stand von GitHub holen (Auto-Rebase)
 echo "Synchronisiere mit remote ($BRANCH)..."
 if ! git pull --rebase origin "$BRANCH"; then
-    echo "⚠️  KONFLIKT entdeckt! Breche automatischen Rebase ab..."
-    git rebase --abort
-    echo "FEHLER: Bitte Konflikte manuell auflösen!"
+    echo "KONFLIKT oder Rebase-Fehler! Breche ab..."
+    git rebase --abort 2>/dev/null || true
+    echo "FEHLER: Bitte manuell prüfen!"
     exit 1
 fi
 
-# 3. Sauber hochpushen
 echo "Pushe zu origin/$BRANCH..."
 git push origin "$BRANCH"
 
