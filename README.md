@@ -12,6 +12,7 @@ I designed a custom PCB in KiCad and everything uses through-hole parts so it's 
 - **Sound:** Piezo buzzer for 8-bit beeps and game sounds
 - **Power:** Slide switch on the right side to turn it on/off
 - **PCB:** 70 x 120 mm custom PCB
+- **Architecture:** Hybrid codebase combining C++, pure bare-metal C, and raw Xtensa Assembly (`.S`)
 
 ## Pinout
 
@@ -57,8 +58,13 @@ Coding this in **VS Code** with PlatformIO and the Arduino framework.
 - [x] **Tetris:** 4-block piece rotation, line clears, game over detection and scaling fall-speed.
 - [x] **Pong:** 1-Player retro pong against an automated bot with 3 selectable difficulty levels (Leicht, Mittel, Schwer).
 - [x] **Wolfenstein 3D:** Lightweight pseudo-3D DDA raycasting engine with shooting mechanics and destroyable wall blocks.
-- [x] **Screensavers:** 4 idle modes kicking in after 30s (Starfield warp, Matrix code rain, bouncing DVD logo, bouncing RR logo).
-- [x] **Sound:** Custom 8-bit sound engine generating square-wave chiptune tones and hit sounds.
+- [x] **Space Invaders:** Retro top-down space shooter written in pure C via hardware abstraction layer.
+- [x] **Breakout:** Classic paddle-and-ball brick destroyer with collision physics written in pure C.
+- [x] **Lunar Lander:** Vector thruster and gravity landing simulator with fuel management written in pure C.
+- [x] **Dino Run:** Bare-metal endless runner written entirely in native Xtensa LX6 assembly (`.S`) for maximum speed and register-level execution.
+- [x] **Screensavers:** 4 idle modes kicking in automatically (Starfield warp, Matrix code rain, bouncing DVD logo, bouncing RR logo) with anti-repeat randomized cycling.
+- [x] **Settings System:** In-game configuration hub to set screensaver timeouts/modes, toggle audio, and wipe persistent NVS highscore banks.
+- [x] **Secret Easter Eggs:** Hidden boot modes and secret chiptune riffs tucked away in the firmware—try holding different buttons on power-up or exploring the settings!
 
 ---
 
