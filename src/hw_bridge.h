@@ -8,35 +8,38 @@
 extern "C" {
 #endif
 
-#define COLOR_BLACK   0x0000
-#define COLOR_WHITE   0xFFFF
-#define COLOR_RED     0xF800
-#define COLOR_GREEN   0x07E0
-#define COLOR_BLUE    0x001F
-#define COLOR_YELLOW  0xFFE0
-#define COLOR_CYAN    0x07FF
-#define COLOR_MAGENTA 0xF81F
-#define COLOR_GRAY    0x7BEF
+// Farben klein
+#define c_black   0x0000
+#define c_white   0xFFFF
+#define c_red     0xF800
+#define c_green   0x07E0
+#define c_blue    0x001F
+#define c_yellow  0xFFE0
+#define c_cyan    0x07FF
+#define c_magenta 0xF81F
+#define c_gray    0x7BEF
 
-#define BTN_UP        (1 << 0)
-#define BTN_DOWN      (1 << 1)
-#define BTN_LEFT      (1 << 2)
-#define BTN_RIGHT     (1 << 3)
-#define BTN_A         (1 << 4)
-#define BTN_B         (1 << 5)
+// Tastenmasken klein
+#define b_up    (1 << 0)
+#define b_down  (1 << 1)
+#define b_left  (1 << 2)
+#define b_right (1 << 3)
+#define b_a     (1 << 4)
+#define b_b     (1 << 5)
 
-void hw_fill_screen(uint16_t color);
-void hw_fill_rect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color);
-void hw_draw_pixel(int16_t x, int16_t y, uint16_t color);
-void hw_draw_text(int16_t x, int16_t y, const char* txt, uint16_t color, uint8_t size);
-uint8_t hw_read_buttons(void);
-void hw_beep(uint16_t freq, uint16_t dur_ms);
-uint32_t hw_millis(void);
-void hw_delay(uint32_t ms);
+// Kurze HW-Funktionen
+void     hw_screen(uint16_t c);
+void     hw_frect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t c);
+void     hw_pixel(int16_t x, int16_t y, uint16_t c);
+void     hw_text(int16_t x, int16_t y, const char* s, uint16_t c, uint8_t sz);
+uint8_t  hw_btns(void);
+void     hw_beep(uint16_t f, uint16_t d);
+uint32_t hw_time(void);
+void     hw_wait(uint32_t ms);
 
-
-void hw_save_score(const char* game_key, uint16_t score);
-void hw_get_top3(const char* game_key, uint16_t* scores);
+// Highscore Top 3
+void hs_save(const char* k, uint16_t val);
+void hs_get(const char* k, uint16_t* out);
 
 #ifdef __cplusplus
 }
